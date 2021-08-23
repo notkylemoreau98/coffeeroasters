@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Fraunces:wght@300;400;500;600;700&display=swap");
+.banner {
+  height: 40vh;
+  color: #fff;
+  background-image: url("../../../coffeeroasters-subscription-site/starter-code/assets/home/desktop/image-danche.png");
+}
+
+.banner h1 {
+  font-family: "Fraunces", sans-serif;
+}
+
+.banner p {
+  font-family: "Barlow", sans-serif;
+}
+/*# sourceMappingURL=landingBanner.css.map */

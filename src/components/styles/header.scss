@@ -1,0 +1,29 @@
+@import "variables.scss";
+
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__links {
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: $text-font;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: $grey;
+      transition: all 0.3s linear;
+
+      &:hover {
+        opacity: 0.85;
+        text-decoration: underline;
+      }
+    }
+  }
+}
