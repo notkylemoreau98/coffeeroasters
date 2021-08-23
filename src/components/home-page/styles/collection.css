@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Fraunces:wght@300;400;500;600;700;800&display=swap");
+.collection {
+  margin-top: 1rem;
+  height: 125vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collection .collection__title {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 10rem;
+  text-align: center;
+  margin: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.collection .collection__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  position: relative;
+  top: -5rem;
+}
+
+.collection .collection__items .collection__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.15rem;
+}
+
+.collection .collection__items .collection__item img {
+  width: 17.5vw;
+}
+
+.collection .collection__items .collection__item h3 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 800;
+  margin-top: 3.5rem;
+  font-size: 2rem;
+}
+
+.collection .collection__items .collection__item p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+/*# sourceMappingURL=collection.css.map */

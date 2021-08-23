@@ -1,12 +1,15 @@
-@mixin button($bg) {
+@mixin button($bg, $clr) {
   cursor: pointer;
-  width: 10rem;
+  width: 13.5rem;
   font-size: 1rem;
   text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 3px;
-  font-size: 1.5rem;
+  padding: 0.9rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 1.15rem;
   background: $bg;
+  color: $clr;
 
   &:hover {
     background: darken($bg, 8%);

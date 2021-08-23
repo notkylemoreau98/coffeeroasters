@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../coffeeroasters-subscription-site/starter-code/assets/shared/desktop/logo.svg';
+import Logo from './styles/assets/shared/desktop/logo.svg';
 import './styles/header.css';
 
 // Need to import react-router
