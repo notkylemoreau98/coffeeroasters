@@ -1,0 +1,79 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.instructions {
+  position: relative;
+  margin-top: 25%;
+  height: 165vh;
+  padding: 3rem;
+
+  .instructions__title {
+    font-family: $title-font;
+    font-size: 2rem;
+    opacity: 0.55;
+    margin-bottom: 2rem;
+  }
+
+  .instructions__bar {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 60vw;
+
+    .circle {
+      height: 1.75rem;
+      width: 4.5rem;
+      border: 2px solid $dark-cyan;
+      border-radius: 50%;
+    }
+
+    .line {
+      width: 80vw;
+      height: 2px;
+      background-color: $pale-orange;
+    }
+  }
+
+  .instructions__content {
+    display: flex;
+
+    .instructions__step {
+      padding: 1rem 3.5rem 1rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      h1 {
+        font-size: 4.5rem;
+        color: $pale-orange;
+        font-family: $title-font;
+      }
+
+      h2 {
+        font-family: $title-font;
+        color: $dark-grey-blue;
+        font-size: 2.25rem;
+        margin-top: 2rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+        margin-top: 2rem;
+        line-height: 2rem;
+        font-family: $text-font;
+        color: $dark-grey-blue;
+      }
+    }
+  }
+
+  .instructions__button {
+    @include button($dark-cyan, $background);
+    font-family: $title-font;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin: 5rem 0;
+  }
+}

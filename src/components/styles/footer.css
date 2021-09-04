@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Fraunces:wght@300;400;500;600;700;800&display=swap");
-.header {
-  height: 8vh;
+.footer {
+  height: 18vh;
+  background-color: #333d4b;
+  margin-bottom: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,9 +12,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 3rem;
 }
 
-.header .header__links {
+.footer img {
+  color: #fefcf7;
+}
+
+.footer .footer__nav {
   width: 25vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,7 +29,7 @@
           justify-content: space-evenly;
 }
 
-.header .header__links .header__link {
+.footer .footer__nav .footer__link {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Barlow", sans-serif;
@@ -33,8 +40,16 @@
   transition: all 0.3s linear;
 }
 
-.header .header__links .header__link:hover {
+.footer .footer__nav .footer__link:hover {
   opacity: 0.85;
   text-decoration: underline;
 }
-/*# sourceMappingURL=header.css.map */
+
+.footer .footer__social a {
+  margin: 0 1rem;
+}
+
+.footer .footer__social img {
+  color: #fefcf7;
+}
+/*# sourceMappingURL=footer.css.map */

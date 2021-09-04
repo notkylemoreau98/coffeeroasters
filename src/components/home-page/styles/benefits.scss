@@ -1,0 +1,70 @@
+@import "../../styles/variables.scss";
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $background;
+  background-color: $dark-grey-blue;
+  border-radius: 10px;
+  height: 90vh;
+
+  .benefits__about {
+    text-align: center;
+    position: relative;
+    top: 20%;
+
+    p {
+      width: 45vw;
+      opacity: 0.9;
+      margin-top: 3rem;
+      line-height: 1.5rem;
+      font-weight: 400;
+    }
+
+    .benefits__title {
+      font-size: 4rem;
+      font-family: $title-font;
+    }
+  }
+
+  .benefits__cards {
+    display: flex;
+    padding: 0 3rem;
+
+    .benefits__card {
+      background-color: $dark-cyan;
+      margin: 1rem 0.75rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      border-radius: 10px;
+      height: 60vh;
+      position: relative;
+      top: 50%;
+
+      * {
+        margin: 0.75rem auto;
+      }
+
+      h3 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        font-family: $title-font;
+      }
+
+      p {
+        line-height: 1.5rem;
+        opacity: 0.9;
+      }
+
+      img {
+        height: 12vh;
+      }
+    }
+  }
+}

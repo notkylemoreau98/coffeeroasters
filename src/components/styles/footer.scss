@@ -1,17 +1,24 @@
-@import "variables.scss";
+@import "variables";
 
-.header {
-  height: 8vh;
+.footer {
+  height: 18vh;
+  background-color: $dark-grey-blue;
+  margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 3rem;
 
-  .header__links {
+  img {
+    color: $background;
+  }
+
+  .footer__nav {
     width: 25vw;
     display: flex;
     justify-content: space-evenly;
 
-    .header__link {
+    .footer__link {
       text-decoration: none;
       text-transform: uppercase;
       font-family: $text-font;
@@ -24,6 +31,16 @@
         opacity: 0.85;
         text-decoration: underline;
       }
+    }
+  }
+
+  .footer__social {
+    a {
+      margin: 0 1rem;
+    }
+
+    img {
+      color: $background;
     }
   }
 }

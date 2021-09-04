@@ -46,7 +46,7 @@
     }
 
     button {
-      @include button($dark-cyan, #fff);
+      @include button($dark-cyan, $background);
       font-family: $title-font;
       font-weight: 700;
       border: none;

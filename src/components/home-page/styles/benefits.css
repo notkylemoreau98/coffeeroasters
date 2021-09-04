@@ -1,1 +1,90 @@
-/* No CSS *//*# sourceMappingURL=benefits.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Fraunces:wght@300;400;500;600;700;800&display=swap");
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fefcf7;
+  background-color: #333d4b;
+  border-radius: 10px;
+  height: 90vh;
+}
+
+.benefits .benefits__about {
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+
+.benefits .benefits__about p {
+  width: 45vw;
+  opacity: 0.9;
+  margin-top: 3rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.benefits .benefits__about .benefits__title {
+  font-size: 4rem;
+  font-family: "Fraunces", sans-serif;
+}
+
+.benefits .benefits__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 3rem;
+}
+
+.benefits .benefits__cards .benefits__card {
+  background-color: #0e8784;
+  margin: 1rem 0.75rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  height: 60vh;
+  position: relative;
+  top: 50%;
+}
+
+.benefits .benefits__cards .benefits__card * {
+  margin: 0.75rem auto;
+}
+
+.benefits .benefits__cards .benefits__card h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-family: "Fraunces", sans-serif;
+}
+
+.benefits .benefits__cards .benefits__card p {
+  line-height: 1.5rem;
+  opacity: 0.9;
+}
+
+.benefits .benefits__cards .benefits__card img {
+  height: 12vh;
+}
+/*# sourceMappingURL=benefits.css.map */

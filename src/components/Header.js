@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Logo from './styles/assets/shared/desktop/logo.svg';
 import './styles/header.css';
 
@@ -8,16 +10,16 @@ function Header() {
 	return (
 		<div className="header">
 			<section className="header__logoContainer">
-				<a href="#">
+				<Link to="/">
 					<img src={Logo} alt="Coffeeroasters logo" className="header__logo" />
-				</a>
+				</Link>
 			</section>
 
-				<section className="header__links">
-					<a href="#">Home</a>
-					<a href="#">About us</a>
-					<a href="#">Create your plan</a>
-				</section>
+				<nav className="header__links">
+					<Link to="/" className="header__link">Home</Link>	
+					<Link to="/about" className="header__link">About us</Link>
+					<Link to="/plan" className="header__link">Create your plan</Link>
+				</nav>
 		</div>
 	)
 }

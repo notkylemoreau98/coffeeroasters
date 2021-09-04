@@ -4,6 +4,7 @@ import React from 'react';
 import LandingBanner from './LandingBanner';
 import Collection from './Collection';
 import Benefits from './Benefits';
+import Instructions from './Instructions';
 
 function Home() {
 	return (
@@ -11,6 +12,7 @@ function Home() {
 			<LandingBanner />
 			<Collection />
 			<Benefits />
+			<Instructions />
 		</div>
 	)
 }

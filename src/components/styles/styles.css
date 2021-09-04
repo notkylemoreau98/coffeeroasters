@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Fraunces:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Fraunces:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Fraunces:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Fraunces:wght@300;400;500;600;700;800&display=swap");
 .header {
   height: 8vh;
   display: -webkit-box;
@@ -49,5 +49,6 @@
 body {
   background-color: #fefcf7;
   padding: 1rem 3rem;
+  font-family: "Barlow", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
