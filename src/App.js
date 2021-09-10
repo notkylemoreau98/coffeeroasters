@@ -11,6 +11,10 @@ import './components/styles/styles.css';
 import Header from './components/Header';
 import Home from './components/home-page/Home';
 import Footer from './components/Footer';
+
+import About from "./components/about/About";
+import Plan from './components/plan/Plan';
+
 import scrollToTop from './components/scrollToTop';
 
 function App() {
@@ -23,11 +27,13 @@ function App() {
 
         <Route path="/plan">
           <Header />
+          <Plan />
           <Footer />
         </Route>
 
         <Route path="/about">
           <Header />
+          <About />
           <Footer />
         </Route>
 

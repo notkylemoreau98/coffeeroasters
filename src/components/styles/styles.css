@@ -23,7 +23,7 @@
           justify-content: space-evenly;
 }
 
-.header .header__links a {
+.header .header__links .header__link {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Barlow", sans-serif;
@@ -34,7 +34,7 @@
   transition: all 0.3s linear;
 }
 
-.header .header__links a:hover {
+.header .header__links .header__link:hover {
   opacity: 0.85;
   text-decoration: underline;
 }
@@ -49,6 +49,17 @@
 body {
   background-color: #fefcf7;
   padding: 1rem 3rem;
+  font-family: "Barlow", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fraunces", sans-serif;
+}
+
+p {
   font-family: "Barlow", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
