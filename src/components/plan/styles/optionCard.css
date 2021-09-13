@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Fraunces:wght@300;400;500;600;700;800&display=swap");
+.card {
+  height: 14.25rem;
+  width: 15.625rem;
+  text-align: center;
+  margin: 0 0.75rem;
+  background-color: #f4f1eb;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: #fdd6ba;
+}
+
+.card:focus {
+  background-color: #0e8784;
+}
+
+.card h4 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 26px;
+}
+/*# sourceMappingURL=optionCard.css.map */

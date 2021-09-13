@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Fraunces:wght@300;400;500;600;700;800&display=swap");
+.options {
+  height: 150vh;
+  padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fefcf7;
+}
+
+.options .options__container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #333d4b;
+  padding: 2.5rem 3rem;
+  margin: 0;
+}
+
+.options .options__title {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+  opacity: 0.55;
+  margin-bottom: 2rem;
+}
+
+.options .options__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15vh;
+  width: 60vw;
+}
+
+.options .options__bar .circle {
+  height: 1.75rem;
+  width: 4.5rem;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
+
+.options .options__bar .line {
+  width: 80vw;
+  height: 2px;
+  background-color: #fdd6ba;
+}
+
+.options .options__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.options .options__content .options__step {
+  padding: 1rem 3.5rem 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.options .options__content .options__step h1 {
+  font-size: 4.5rem;
+  color: #fdd6ba;
+  font-family: "Fraunces", sans-serif;
+}
+
+.options .options__content .options__step h2 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2.25rem;
+  margin-top: 2rem;
+}
+
+.options .options__content .options__step p {
+  font-size: 1rem;
+  margin-top: 2rem;
+  line-height: 26px;
+  font-family: "Barlow", sans-serif;
+}
+
+.options .options__button {
+  cursor: pointer;
+  width: 13.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.9rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 1.15rem;
+  background: #0e8784;
+  color: #fefcf7;
+  font-family: "Fraunces", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin: 5rem 0;
+}
+
+.options .options__button:hover {
+  background: #0a6260;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.options .options__button:active {
+  background: #021313;
+}
+/*# sourceMappingURL=options.css.map */

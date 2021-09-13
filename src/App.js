@@ -6,22 +6,19 @@ import {
 } from "react-router-dom";
 import './components/styles/styles.css';
 
-// Need to import react-router
-
 import Header from './components/Header';
 import Home from './components/home-page/Home';
 import Footer from './components/Footer';
-
 import About from "./components/about/About";
 import Plan from './components/plan/Plan';
 
-import scrollToTop from './components/scrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
 
-    <scrollToTop />
+    <ScrollToTop />
     <div className="app">
       <Switch>
 
