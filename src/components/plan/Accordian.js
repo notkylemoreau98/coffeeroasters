@@ -6,11 +6,11 @@ import OptionCard from './OptionCard';
 import styled from 'styled-components';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 
-const AccordianSection = styled.div``
-const Container = styled.div``
+function Accordian({ title, fieldName1, fieldName2, fieldName3, desc1, desc2, desc3, state, setState }) {
+	const [active, setActive] = useState(true);
+	// const [orderValue, setOrderValue] = useState('');
 
-function Accordian({ title, fieldName1, fieldName2, fieldName3, desc1, desc2, desc3 }) {
-	const [active, setActive] = useState(false);
+	console.log(state, setState);
 
 	return (
 		<section className="accordian">
@@ -20,13 +20,13 @@ function Accordian({ title, fieldName1, fieldName2, fieldName3, desc1, desc2, de
 			</div>
 
 			{active ? <div className="accordian__cards">
-				<OptionCard fieldName={fieldName1} desc={desc1} />
-				<OptionCard fieldName={fieldName2} desc={desc2} />
-				<OptionCard fieldName={fieldName3} desc={desc3} />
+				<OptionCard fieldName={fieldName1} desc={desc1} onClick={() => setState(fieldName1)} />
+				<OptionCard fieldName={fieldName2} desc={desc2} onClick={() => setState(fieldName2)} />
+				<OptionCard fieldName={fieldName3} desc={desc3} onClick={() => setState(fieldName3)} />
 			</div> : ''}
 			
 		</section>
 	)
 }
 
-export default Accordian
+export default Accordian;
