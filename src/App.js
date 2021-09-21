@@ -13,6 +13,7 @@ import About from "./components/about/About";
 import Plan from './components/plan/Plan';
 
 import ScrollToTop from './components/ScrollToTop';
+import { useStateValue } from "./components/stateProvider";
 
 function App() {
   return (
